@@ -1,5 +1,5 @@
 Flask
 yfinance
-pandas
-ta
-matplotlib
+Pandas
+Technical Analysis
+Matplotlib
