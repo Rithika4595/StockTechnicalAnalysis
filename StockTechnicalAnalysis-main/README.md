@@ -54,4 +54,10 @@ Example:
 
 4. The system generates:
 
+based on indicator signals.
+
+---
+
+## 📌 Example Output
+
 
