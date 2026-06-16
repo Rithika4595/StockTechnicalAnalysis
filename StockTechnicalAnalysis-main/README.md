@@ -60,4 +60,11 @@ based on indicator signals.
 
 ## 📌 Example Output
 
+---
 
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Rithika4595/StockTechnicalAnalysis.git
