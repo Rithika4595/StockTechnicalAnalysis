@@ -1,0 +1,5 @@
+Flask
+yfinance
+Pandas
+Technical Analysis
+Matplotlib
