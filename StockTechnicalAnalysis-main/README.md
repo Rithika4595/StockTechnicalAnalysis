@@ -1,19 +1,45 @@
-# Stock Prediction Web App
+# 📈 Stock Technical Analysis & Trend Prediction
 
-This is a Flask-based web application that predicts the bullishness or bearishness of a given stock based on technical indicators. It fetches historical stock data using the Yahoo Finance API and applies various technical indicators such as Moving Averages (SMA and EMA), RSI, MACD, and Stochastic Oscillator to make predictions.
+A Flask-based web application that analyzes stock market data using technical indicators and provides a simple **Bullish / Bearish / Hold** trend prediction.
 
-## Features
+The application fetches stock data dynamically using Yahoo Finance API and calculates technical indicators to evaluate market momentum.
 
-- Allows users to input a stock symbol.
-- Provides predictions on whether the stock is bullish, bearish, or to hold.
-- Displays a bullishness and bearishness rating based on technical indicators.
-- Shows values of key technical indicators (Moving Averages, RSI, MACD, Stochastic Oscillator).
-- Customizes suggestion for each prediction based on technical analysis.
+---
 
-## Installation
+## 🚀 Features
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your_username/stock-prediction-web-app.git
+✅ Real-time stock data fetching using Yahoo Finance  
+✅ Stock symbol based analysis (AAPL, TSLA, RELIANCE.NS etc.)  
+✅ 50-day & 200-day Simple Moving Average (SMA)  
+✅ RSI (Relative Strength Index) analysis  
+✅ MACD indicator calculation  
+✅ Stochastic Oscillator analysis  
+✅ Bullish / Bearish / Hold prediction  
+✅ Technical indicator based scoring system  
+✅ Flask web interface  
 
-Author - Rithika D
+---
+
+## 🛠️ Tech Stack
+
+**Backend**
+- Python
+- Flask
+
+**Data & Analysis**
+- Yahoo Finance API (`yfinance`)
+- Pandas
+- TA (Technical Analysis Library)
+
+**Frontend**
+- HTML
+- CSS
+
+---
+
+## 📊 How It Works
+
+1. User enters a stock symbol.
+
+Example:
+
