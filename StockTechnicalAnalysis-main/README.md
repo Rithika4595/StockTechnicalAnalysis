@@ -43,3 +43,15 @@ The application fetches stock data dynamically using Yahoo Finance API and calcu
 
 Example:
 
+2. Application fetches historical market data.
+
+3. Technical indicators are calculated:
+
+- Moving Average Trend
+- RSI Momentum
+- MACD Trend
+- Stochastic Momentum
+
+4. The system generates:
+
+
