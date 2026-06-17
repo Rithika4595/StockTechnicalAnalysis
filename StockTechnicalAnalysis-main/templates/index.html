@@ -3,17 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stock Prediction</title>
+    <title>Stock Analysis Dashboard</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
+
     <div class="container">
-        <h1>Stock Prediction</h1>
-        <form action="/predict" method="post">
-            <label for="symbol">Enter Stock Symbol:</label>
-            <input type="text" id="symbol" name="symbol" required>
-            <button type="submit">Predict</button>
-        </form>
+
+        <div class="hero">
+
+            <h1>📈 Stock Analysis Dashboard</h1>
+
+            <p class="subtitle">
+                Analyze stocks using technical indicators such as
+                RSI, MACD, SMA, and Stochastic Oscillator.
+            </p>
+
+        </div>
+
+        <div class="search-card">
+
+            <form action="/predict" method="post">
+
+                <label for="symbol">
+                    Enter Stock Symbol
+                </label>
+
+                <input
+                    type="text"
+                    id="symbol"
+                    name="symbol"
+                    placeholder="Example: AAPL, TSLA, RELIANCE.NS"
+                    required
+                >
+
+                <button type="submit">
+                    Analyze Stock
+                </button>
+
+            </form>
+
+        </div>
+
     </div>
+
 </body>
 </html>
