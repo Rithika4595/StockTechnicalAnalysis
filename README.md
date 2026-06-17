@@ -1,70 +1,57 @@
-# 📈 Stock Technical Analysis & Trend Prediction
+# 📈 Stock Analysis Dashboard
 
-A Flask-based web application that analyzes stock market data using technical indicators and provides a simple **Bullish / Bearish / Hold** trend prediction.
-
-The application fetches stock data dynamically using Yahoo Finance API and calculates technical indicators to evaluate market momentum.
-
----
+A Flask-based web application that analyzes stocks using technical indicators and generates a Bullish, Hold, or Bearish prediction.
 
 ## 🚀 Features
 
-✅ Real-time stock data fetching using Yahoo Finance  
-✅ Stock symbol based analysis (AAPL, TSLA, RELIANCE.NS etc.)  
-✅ 50-day & 200-day Simple Moving Average (SMA)  
-✅ RSI (Relative Strength Index) analysis  
-✅ MACD indicator calculation  
-✅ Stochastic Oscillator analysis  
-✅ Bullish / Bearish / Hold prediction  
-✅ Technical indicator based scoring system  
-✅ Flask web interface  
-
----
+- Live stock data using Yahoo Finance
+- 50-Day & 200-Day SMA
+- RSI Analysis
+- MACD Indicator
+- Stochastic Oscillator
+- Bullish / Hold / Bearish Prediction
+- Black & Gold Dashboard UI
 
 ## 🛠️ Tech Stack
 
-**Backend**
 - Python
 - Flask
-
-**Data & Analysis**
-- Yahoo Finance API (`yfinance`)
 - Pandas
-- TA (Technical Analysis Library)
-
-**Frontend**
+- yFinance
+- TA Library
 - HTML
 - CSS
 
----
-
-## 📊 How It Works
-
-1. User enters a stock symbol.
-
-Example:
-
-2. Application fetches historical market data.
-
-3. Technical indicators are calculated:
-
-- Moving Average Trend
-- RSI Momentum
-- MACD Trend
-- Stochastic Momentum
-
-4. The system generates:
-
-based on indicator signals.
-
----
-
-## 📌 Example Output
-
----
-
-## ⚙️ Installation
-
-Clone the repository:
+## ⚙️ Run Locally
 
 ```bash
 git clone https://github.com/Rithika4595/StockTechnicalAnalysis.git
+cd StockTechnicalAnalysis-main
+pip install -r requirements.txt
+python app.py
+```
+
+Open:
+
+```text
+http://127.0.0.1:5000
+```
+
+## 📊 Example Symbols
+
+- AAPL
+- TSLA
+- MSFT
+- NVDA
+- RELIANCE.NS
+
+## 🔮 Future Improvements
+
+- Interactive charts
+- Portfolio tracking
+- News sentiment analysis
+- ML-based predictions
+
+## 👩‍💻 Author
+
+Rithika
